@@ -1,6 +1,6 @@
 # Chat Application
-<img src="./Images/logo.png" />
 This is a simple chat application written in Java. It allows users to send and receive private and public messages.
+<img src="./Images/logo.png" width="50%"  height="50%"/>
 
 ## Features
 
