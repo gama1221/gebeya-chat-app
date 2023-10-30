@@ -44,12 +44,11 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Gebeya License](https://gebeya.com/).
 
 
 Please note that you may need to modify the content to reflect the specifics of your project, such as updating the repository URL, file structure, dependencies, and license information.
 ```
-**Any features need to improve and/or add? please send me a pull request, I will review it and will be a part of this repo.**
 # Author
 . [getinet-mekonnen/LinkedIn](https://www.linkedin.com/in/getinet-mekonnen/)
 
