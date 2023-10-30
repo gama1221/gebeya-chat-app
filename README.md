@@ -25,7 +25,7 @@ git clone https://github.com/gama1221/gebeya-chat-app.git
 
 3. Run the application:
    **java Main**
-```shell
+
 4. Follow the instructions on the console to use the chat application.
 
 ## File Structure
@@ -48,7 +48,7 @@ This project is licensed under the [Gebeya License](https://gebeya.com/).
 
 
 Please note that you may need to modify the content to reflect the specifics of your project, such as updating the repository URL, file structure, dependencies, and license information.
-```
+
 # Author
 . [getinet-mekonnen/LinkedIn](https://www.linkedin.com/in/getinet-mekonnen/)
 
