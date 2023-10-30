@@ -1,0 +1,62 @@
+# Compiled Java classes
+*.class
+
+# Dependency directories
+/bin/
+/target/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Build artifacts
+build/
+out/
+
+# Log files
+*.log
+
+# Application configuration
+application.properties
+
+# Compiled JAR file
+*.jar
+
+# Eclipse-specific files
+.settings/
+.project
+.classpath
+
+# IntelliJ-specific files
+*.iml
+*.ipr
+*.iws
+
+# Gradle-specific files
+.gradle/
+build.gradle
+gradlew
+gradlew.bat
+
+# Maven-specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next.release
+release.properties
+
+# NetBeans-specific files
+nbproject/private/
+nbbuild/
+dist/
+build/
+nbactions.xml
+nb-configuration.xml
+
+# Javadoc
+javadoc/
+
+# Temporary files
+*.swp
+*~
