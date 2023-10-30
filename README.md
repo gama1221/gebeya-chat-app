@@ -17,7 +17,7 @@ This is a simple chat application written in Java. It allows users to send and r
 
 1. Clone the repository:
 ```shell
-git clone https://github.com/your-username/chat-application.git
+git clone https://github.com/gama1221/gebeya-chat-app.git
 ```
 2. Compile the Java files:
 
