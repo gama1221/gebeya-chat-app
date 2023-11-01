@@ -32,7 +32,7 @@ public class Main {
 
                     friendList.friendRead(friendPath);
                 } catch (Exception e) {
-                    System.out.println("No Friends.");
+                    System.out.println("empty friend " + e.getMessage());
                 }
             } else if (choice == 2) {
                 System.out.println("INPUT NAME: ");
@@ -61,7 +61,7 @@ public class Main {
 
                     }
                 } catch (Exception e) {
-                    System.out.println("No Friends.");
+                    System.out.println("Empty friends " + e.getMessage());
                 }
 
 
@@ -84,7 +84,7 @@ public class Main {
 
                     }
                 } catch (Exception e) {
-                    System.out.println("No Friends.");
+                    System.out.println("empty friends " + e.getMessage());
                 }
 
             } else if (choice == 7) {
