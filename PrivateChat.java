@@ -46,8 +46,9 @@ public class PrivateChat {
             privateReader1.close();
         } catch (Exception e) {
            e.printStackTrace();
+           System.out.println("Failed to update into PrivateChat " + e.getMessage());
         }
-
+        
         try {
             Scanner privateReader2 = new Scanner(privateMessage2);
             while (privateReader2.hasNextLine()) {
@@ -57,6 +58,7 @@ public class PrivateChat {
             privateReader2.close();
         } catch (Exception e) {
             e.printStackTrace();
+            System.out.println("Failed to update into PrivateChat " + e.getMessage());
         }
     }
 
@@ -92,6 +94,7 @@ public class PrivateChat {
             }
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println("Failed to write into PrivateChat " + e.getMessage());
         }
     }
 }

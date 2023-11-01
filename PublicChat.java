@@ -48,7 +48,7 @@ public class PublicChat {
             publicChatHistory.clear();
             publicChatHistory.addAll(lines);
         } catch (IOException e) {
-            System.out.println("NO PUBLIC CHATS");
+            System.out.println("Failed to update into PublicChat " + e.getMessage());
         }
     }
 
@@ -70,6 +70,7 @@ public class PublicChat {
             appendWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println("Failed to write into PublicChat " + e.getMessage());
         }
     }
 }
