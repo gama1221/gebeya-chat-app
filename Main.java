@@ -13,15 +13,14 @@ public class Main {
         String ip = entry.nextLine();
         System.out.println("---------------------------------------------------------");
         System.out.println(" PRESS....");
-        System.out.println("""
-                1: LIST FRIENDS.
-                2: ADD FRIEND.
-                3: MESSAGE PUBLIC.
-                4: MESSAGE PRIVATE.
-                5: READ PUBLIC.
-                6: READ PRIVATE.
-                7: CHANGE NAME AND IP.
-                8: QUIT""");
+        System.out.println("1: LIST FRIENDS.");
+        System.out.println("2: ADD FRIEND.");
+        System.out.println("3: MESSAGE PUBLIC.");
+        System.out.println("4: MESSAGE PRIVATE.");
+        System.out.println("5: READ PUBLIC.");
+        System.out.println("6: READ PRIVATE.");
+        System.out.println("7: CHANGE NAME AND IP.");
+        System.out.println("8: QUIT");
 
         int choice = entry.nextInt();
         entry.nextLine();
@@ -64,7 +63,6 @@ public class Main {
                     System.out.println("Empty friends " + e.getMessage());
                 }
 
-
             } else if (choice == 5) {
                 File publicPath = new File("./Eurakarte.log");
                 publicChat.publicRead(publicPath);
@@ -94,16 +92,16 @@ public class Main {
                 ip = entry.nextLine();
             }
             System.out.println("---------------------------------------------------------");
-            System.out.println(" PRESS....");
-            System.out.println("""
-                    1: LIST FRIENDS.
-                    2: ADD FRIEND.
-                    3: MESSAGE PUBLIC.
-                    4: MESSAGE PRIVATE.
-                    5: READ PUBLIC.
-                    6: READ PRIVATE.
-                    7: CHANGE NAME AND IP.
-                    8: QUIT""");
+            System.out.println("PRESS....");
+            System.out.println("1: LIST FRIENDS.");
+            System.out.println("2: ADD FRIEND.");
+            System.out.println("3: MESSAGE PUBLIC.");
+            System.out.println("4: MESSAGE PRIVATE.");
+            System.out.println("5: READ PUBLIC.");
+            System.out.println("6: READ PRIVATE.");
+            System.out.println("7: CHANGE NAME AND IP.");
+            System.out.println("8: QUIT");
+
             choice = entry.nextInt();
             entry.nextLine();
         }
