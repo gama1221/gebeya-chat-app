@@ -96,6 +96,7 @@ public class FriendsList {
             appendWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println("cach the error " + e.getMessage());
         }
     }
 }
